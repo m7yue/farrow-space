@@ -1,0 +1,22 @@
+{
+  "name": "started-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "farrow dev",
+    "build": "farrow build",
+    "start": "farrow start"
+  },
+  "keywords": [],
+  "author": "m7yue",
+  "license": "ISC",
+  "dependencies": {
+    "farrow": "^2.0.1",
+    "farrow-api-server": "^2.0.1",
+    "farrow-http": "^2.0.1"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.2"
+  }
+}

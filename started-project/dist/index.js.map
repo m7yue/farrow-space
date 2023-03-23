@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../src/index.ts"],
+  "sourcesContent": ["import { Http, Response } from \"farrow-http\";\n\nconst http = Http();\n\nhttp.use(() => {\n  return Response.text(\"Hello Farrow\");\n});\n\nhttp.listen(3000, () => {\n  console.log(\"server started at http://localhost:3000\");\n});"],
+  "mappings": ";;;AAAA,yBAA+B;AAE/B,IAAM,WAAO,yBAAK;AAElB,KAAK,IAAI,MAAM;AACb,SAAO,4BAAS,KAAK,cAAc;AACrC,CAAC;AAED,KAAK,OAAO,KAAM,MAAM;AACtB,UAAQ,IAAI,yCAAyC;AACvD,CAAC;",
+  "names": []
+}
